@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Enter the Wave - Biarritz",
+        "country": "Frankrijk",
+        "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=500",
+        "difficulty": "Beginner",
+        "price": 590
+    },
+    {
+        "title" : "The Nomad Cruise",
+        "country": "Atlantische Oceaan",
+        "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=500",
+        "difficulty": "Intermediate",
+        "price": 850
+    },
+    {
+        "title": "Balkan Trail Experience",
+        "country": "Montenegro",
+        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=500",
+        "difficulty": "Expert",
+        "price": 420
+    }
+]
