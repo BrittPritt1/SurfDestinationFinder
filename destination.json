@@ -1,23 +1,72 @@
 [
     {
-        "title": "Enter the Wave - Biarritz",
-        "country": "Frankrijk",
-        "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=500",
-        "difficulty": "Beginner",
-        "price": 590
-    },
-    {
-        "title" : "The Nomad Cruise",
-        "country": "Atlantische Oceaan",
-        "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=500",
+        "id": 1,
+        "destination": "Ericeira, Portugal",
+        "accommodation": "Surf House",
+        "price": 550,
         "difficulty": "Intermediate",
-        "price": 850
+        "vibe": "Yoga & chill",
+        "period": "Mei - Okt",
+        "transport": "Vlucht incl.",
+        "rating": 4.9,
+        "wave_type": "Reef break",
+        "tags": ["World Class", "Culture"],
+        "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=800"
     },
     {
-        "title": "Balkan Trail Experience",
-        "country": "Montenegro",
-        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=500",
+        "id": 2,
+        "destination": "Hossegor, Frankrijk",
+        "accommodation": "Surf Camp",
+        "price": 420,
         "difficulty": "Expert",
-        "price": 420
+        "vibe": "Coaching focus",
+        "period": "Sep - Nov",
+        "transport": "Bus / Eigen vervoer",
+        "rating": 4.8,
+        "wave_type": "Beach break",
+        "tags": ["Barrels", "Party"],
+        "image": "https://cdn.sanity.io/images/we0tdimr/production/79b5bdad9b00f17f5d23f50d48bc2723061d3210-3840x2560.jpg?rect=0,200,3840,2160&w=1920&h=1080&q=70&auto=format"
+    },
+    {
+        "id": 3,
+        "destination": "Taghazout, Marokko",
+        "accommodation": "Surf Hostel",
+        "price": 380,
+        "difficulty": "Beginner",
+        "vibe": "Party & surf",
+        "period": "Dec - Maa",
+        "transport": "Vlucht incl.",
+        "rating": 4.7,
+        "wave_type": "Point break",
+        "tags": ["Budget", "Sun"],
+        "image": "https://images.unsplash.com/photo-1537519646099-335112f03225?auto=format&fit=crop&w=800"
+    },
+    {
+        "id": 4,
+        "destination": "Oyambre, Spanje",
+        "accommodation": "Glamping",
+        "price": 495,
+        "difficulty": "Beginner",
+        "vibe": "Family friendly",
+        "period": "Jun - Sep",
+        "transport": "Busrit incl.",
+        "rating": 4.6,
+        "wave_type": "Beach break",
+        "tags": ["Nature", "Family"],
+        "image": "https://travelbase.eu/app/uploads/2024/10/1.jpg"
+    },
+    {
+        "id": 5,
+        "destination": "Uluwatu, Bali",
+        "accommodation": "Luxury Resort",
+        "price": 1250,
+        "difficulty": "Expert",
+        "vibe": "Family friendly",
+        "period": "Apr - Okt",
+        "transport": "Vlucht excl.",
+        "rating": 5.0,
+        "wave_type": "Reef break",
+        "tags": ["Tropical", "Luxury"],
+        "image": "https://destinasian.com/_next/image?url=https%3A%2F%2Fstaging.destinasian.com%2Fwp-content%2Fuploads%2FUluwatu-Bali-Surf-Story-Tommy-Schultz_Hero.jpg&w=3840&q=75"
     }
 ]

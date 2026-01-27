@@ -11,6 +11,21 @@ padding: 40px;
     gap: 25px;
 }
 
+.btn-book {
+    text-decoration: none;
+    background-color: #00667A;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+    color: #ffffff;
+}
+
+.btn-book:hover {
+    background-color: #004d5c;
+}
+
 .reis-card {
     background: white;
     border-radius: 15px;
@@ -30,21 +45,74 @@ padding: 40px;
     object-fit: cover;
 }
 
-.reis-card h3, .reis-card p {
-    padding: 0 20px;
-}
-
 .reis-card p {
     color: #777;
     margin-bottom: 20px;
 }
 
+.card-content {
+    padding: 15px 20px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accommodation-info {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin: 5px 0;
+}
+
+.wave-info {
+    display: flex;
+    gap: 15px;
+    font-size: 0.8rem;
+    color: #34495e;
+    margin: 10px 0;
+}
+
+.price-label {
+    font-size: 0.8rem;
+    color: #7f8c8d;
+    display: block;
+}
+
+.price-amount {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #00667A;
+}
+
+
+.image-wrapper {
+    position: relative;
+}
+
 .difficulty-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
     display: inline-block;
     padding: 4px 10px;
     border-radius: 8px;
-    font-size: 0.8rem;
     font-weight: bold;
-    text-transform: uppercase;
-    margin:10px 10px 10px 10px;
+    color: white;
+    font-size: 0.9rem;
+    background: rgba(0, 102, 122, 0.42);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.7px);
+    -webkit-backdrop-filter: blur(9.7px);
+    border: 1px solid rgba(0, 102, 122, 0.15);
+}
+
+.price-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+    margin-top: 15px;
+    padding-top: 15px;
 }

@@ -21,35 +21,62 @@ if($destinations === null) {
 </head>
 <body>
 
-    <h1>Onze Reizen</h1>
+    <h1>Onze reizen</h1>
 
     <div class="reizen-container">
         <?php foreach ($destinations as $destination): ?>
 
             <?php 
-                $difficulty = $destination['difficulty'];
+              /*  $difficulty = $destination['difficulty'];
                 $color = 'gray';
                 $textcolor = 'black';
 
                 if($difficulty == 'Beginner') {
-                    $color = '#00CCF5';
-                    $textcolor = '#000000';
-                } elseif($difficulty == 'Intermediate') {
                     $color = '#0091AD';
                     $textcolor = '#FFFFFF';
-                } elseif($difficulty == 'Expert') {
-                    $color = '#00667A';
+                } elseif($difficulty == 'Intermediate') {
+                    $color = '#00778F';
                     $textcolor = '#FFFFFF';
-                }
+                } elseif($difficulty == 'Expert') {
+                    $color = '#005566';
+                    $textcolor = '#FFFFFF';
+                } */
             ?>
 
 
-            <div class="reis-card">
-                <span class="difficulty-badge" style="background-color: <?php echo $color; ?>; color: <?php echo $textcolor; ?>;"> <?php echo $difficulty; ?> </span>
-                <h3><?php echo $destination['title']; ?></h3>
-                <p><?php echo $destination['country']; ?></p>
-                <img src="<?php echo $destination['image'] ?>" alt="<?php echo $destination['title'] ?>">
+           <div class="reis-card">
+                <div class="image-wrapper">
+                    <img src="<?php echo $destination['image']; ?>" alt="">
+             <!--        <span class="difficulty-badge" style="background-color: <?php echo $color; ?>; color: <?php echo $textcolor; ?>;">
+                        <?php echo $difficulty; ?>
+                    </span> -->
+                    <span class="difficulty-badge"><?php echo $destination['vibe']; ?></span>
                 </div>
+
+                <div class="card-content">
+                    <div class="card-header">
+                        <h3><?php echo $destination['destination']; ?></h3>
+                        <span class="rating">⭐ <?php echo $destination['rating']; ?></span>
+                    </div>
+
+                    <p class="accommodation-info"><?php echo $destination['accommodation']; ?> • <?php echo $destination['transport']; ?></p>
+                    
+                    <div class="wave-info">
+                        <span>🌊 <?php echo $destination['wave_type']; ?></span>
+                        <span>🗓 <?php echo $destination['period']; ?></span>
+                    </div>
+
+                    <div class="price-btn">
+                        <div class="price-info">
+                            <span class="price-label">Vanaf</span>
+                            <span class="price-amount">€<?php echo $destination['price']; ?></span>
+                        </div>
+
+                        <a href="#" class="btn-book">Bekijk reis</a>
+                    </div>
+                    
+                </div>
+            </div>
 
         <?php endforeach; ?>
     </div>
