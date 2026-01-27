@@ -20,8 +20,13 @@ if($destinations === null) {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <h1>Onze reizen</h1>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Vind jouw perfecte surf-break</h1>
+            <p>Ontdek de beste surf-accomodaties wereldwijd, van Portugal tot Bali</p>
+            <a href="#reizen" id="hero-btn" class="btn-primary">Bekijk aanbod</a>
+        </div>
+    </header>
 
     <div class="reizen-container">
         <?php foreach ($destinations as $destination): ?>
@@ -44,7 +49,7 @@ if($destinations === null) {
             ?>
 
 
-           <div class="reis-card">
+           <div id="reizen" class="reis-card">
                 <div class="image-wrapper">
                     <img src="<?php echo $destination['image']; ?>" alt="">
              <!--        <span class="difficulty-badge" style="background-color: <?php echo $color; ?>; color: <?php echo $textcolor; ?>;">
@@ -72,7 +77,7 @@ if($destinations === null) {
                             <span class="price-amount">€<?php echo $destination['price']; ?></span>
                         </div>
 
-                        <a href="#" class="btn-book">Bekijk reis</a>
+                        <a href="#" class="btn-primary">Bekijk reis</a>
                     </div>
                     
                 </div>
