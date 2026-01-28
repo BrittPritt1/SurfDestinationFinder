@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "destination": "Ericeira, Portugal",
-        "accommodation": "Surf House",
+        "destination": "Portugal",
+        "accommodation": "Surf Hostel",
         "price": 550,
         "difficulty": "Intermediate",
         "vibe": "Yoga & chill",
@@ -15,7 +15,7 @@
     },
     {
         "id": 2,
-        "destination": "Hossegor, Frankrijk",
+        "destination": "Frankrijk",
         "accommodation": "Surf Camp",
         "price": 420,
         "difficulty": "Expert",
@@ -29,7 +29,7 @@
     },
     {
         "id": 3,
-        "destination": "Taghazout, Marokko",
+        "destination": "Marokko",
         "accommodation": "Surf Hostel",
         "price": 380,
         "difficulty": "Beginner",
@@ -43,7 +43,7 @@
     },
     {
         "id": 4,
-        "destination": "Oyambre, Spanje",
+        "destination": "Spanje",
         "accommodation": "Glamping",
         "price": 495,
         "difficulty": "Beginner",
@@ -57,8 +57,8 @@
     },
     {
         "id": 5,
-        "destination": "Uluwatu, Bali",
-        "accommodation": "Luxury Resort",
+        "destination": "Bali",
+        "accommodation": "Surf Camp",
         "price": 1250,
         "difficulty": "Expert",
         "vibe": "Family friendly",
