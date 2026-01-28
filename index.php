@@ -47,7 +47,7 @@ if($destinations === null) {
                         </select>
                     </div>
 
-                    <div class="filter-group">
+<!--                     <div class="filter-group">
                         <h4>Niveau</h4>
                         <select name="difficulty">
                             <option value="">Alle niveaus</option>
@@ -124,17 +124,12 @@ if($destinations === null) {
                             <span>€0</span>
                             <span id="priceVal">€2000</span>
                         </div>
-                    </div>
+                    </div> -->
 
                     <button type="submit" class="btn-filter-apply">Toon reizen</button> 
             </form>
           
         </aside>
-
-        <pre>
-            Gekozen land: <?php echo $fLand; ?> <br>
-            Aantal resultaten gevonden: <?php echo count($filteredResults); ?>
-        </pre>
 
         <section id="reizen" class="reizen-container">
             <?php foreach ($filteredResults as $destination): ?>
@@ -173,7 +168,7 @@ if($destinations === null) {
         </section>
     </main>
     
-    <script>
+<!--     <script>
         // Prijs Slider Logica
         const priceSlider = document.getElementById('priceRange');
         const priceOutput = document.getElementById('priceVal');
@@ -189,6 +184,6 @@ if($destinations === null) {
         ratingSlider.oninput = function() {
             ratingOutput.innerHTML = this.value + '+ ⭐';
         }
-    </script>
+    </script> -->
 </body>
 </html>
