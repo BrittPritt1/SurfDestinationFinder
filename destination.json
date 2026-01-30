@@ -12,7 +12,8 @@
         "rating": 4.9,
         "wave_type": "Reef break",
         "tags": ["World Class", "Culture"],
-        "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=800"
+        "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=800",
+        "description": "Ericeira is het enige World Surfing Reserve in Europa. Met een mix van zachte beach breaks voor beginners en krachtige reef breaks voor experts, is dit de ultieme surfspot voor iedereen."
     },
     {
         "id": 2,
@@ -27,7 +28,8 @@
         "rating": 4.8,
         "wave_type": "Beach break",
         "tags": ["Barrels", "Party"],
-        "image": "https://cdn.sanity.io/images/we0tdimr/production/79b5bdad9b00f17f5d23f50d48bc2723061d3210-3840x2560.jpg?rect=0,200,3840,2160&w=1920&h=1080&q=70&auto=format"
+        "image": "https://cdn.sanity.io/images/we0tdimr/production/79b5bdad9b00f17f5d23f50d48bc2723061d3210-3840x2560.jpg?rect=0,200,3840,2160&w=1920&h=1080&q=70&auto=format",
+        "description": "Hossegor staat wereldwijd bekend als de surfhoofdstad van Europa. De legendarische 'sand-bottom barrels' van La Gravière trekken elk jaar de beste surfers ter wereld aan. Naast het surfen biedt Hossegor een bruisend nachtleven, hippe surfshops en eindeloze dennenbossen. Het is de perfecte plek voor wie op zoek is naar krachtige golven en een energieke Franse lifestyle."
     },
     {
         "id": 3,
@@ -42,7 +44,8 @@
         "rating": 4.7,
         "wave_type": "Point break",
         "tags": ["Budget", "Sun"],
-        "image": "https://images.unsplash.com/photo-1537519646099-335112f03225?auto=format&fit=crop&w=800"
+        "image": "https://images.unsplash.com/photo-1537519646099-335112f03225?auto=format&fit=crop&w=800",
+        "description": "Taghazout is een magisch vissersdorpje dat is uitgegroeid tot dé surfhub van Marokko. Met beroemde point breaks zoals Anchor Point, waar de golven kilometers lang lijken door te rollen, is dit een droom voor elke surfer. Geniet van de Marokkaanse gastvrijheid, drink verse muntthee op een dakterras tijdens zonsondergang en ervaar de unieke mix van woestijnlandschappen en de Atlantische Oceaan."
     },
     {
         "id": 4,
@@ -57,7 +60,8 @@
         "rating": 4.6,
         "wave_type": "Beach break",
         "tags": ["Nature", "Family"],
-        "image": "https://travelbase.eu/app/uploads/2024/10/1.jpg"
+        "image": "https://travelbase.eu/app/uploads/2024/10/1.jpg",
+        "description": "Zarautz bezit het langste strand van de Spaanse Baskenland-kust en is de ideale plek voor surfers van elk niveau. De constante golven maken het een betrouwbare bestemming voor surfscholen en gevorderden. De Baskische cultuur proef je overal: combineer je surfsessies met de beroemde 'pintxos' in het gezellige centrum en geniet van de groene bergen die direct aan de oceaan grenzen."
     },
     {
         "id": 5,
@@ -72,6 +76,7 @@
         "rating": 5.0,
         "wave_type": "Reef break",
         "tags": ["Tropical", "Luxury"],
-        "image": "https://destinasian.com/_next/image?url=https%3A%2F%2Fstaging.destinasian.com%2Fwp-content%2Fuploads%2FUluwatu-Bali-Surf-Story-Tommy-Schultz_Hero.jpg&w=3840&q=75"
+        "image": "https://destinasian.com/_next/image?url=https%3A%2F%2Fstaging.destinasian.com%2Fwp-content%2Fuploads%2FUluwatu-Bali-Surf-Story-Tommy-Schultz_Hero.jpg&w=3840&q=75",
+        "description": "Canggu is de ultieme tropische surf-hotspot van Bali. Met een relaxte 'island life' vibe, omringd door rijstvelden en hippe beach clubs, trekt het surfers van over de hele wereld aan. De spots Batu Bolong en Echo Beach bieden golven voor zowel longboarders als shortboarders. Het warme water, de prachtige zonsondergangen en de eindeloze smoothie bowls maken Canggu tot een plek die je nooit meer wilt verlaten."
     }
 ]

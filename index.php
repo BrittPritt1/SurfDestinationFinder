@@ -158,7 +158,7 @@ if($destinations === null) {
                                 <span class="price-amount">€<?php echo $destination['price']; ?></span>
                             </div>
 
-                            <a href="#" class="btn-primary">Bekijk reis</a>
+                            <a href="detail.php?id=<?php echo $destination['id']; ?>" class="btn-primary">Bekijk reis</a>
                         </div>
                         
                     </div>
