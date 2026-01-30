@@ -141,7 +141,7 @@ if($destinations === null) {
 
                     <div class="card-content">
                         <div class="card-header">
-                            <h3><?php echo $destination['destination']; ?></h3>
+                            <h3><?php echo $destination['city'] . ", " . $destination['destination']; ?></h3>
                             <span class="rating">⭐ <?php echo $destination['rating']; ?></span>
                         </div>
 

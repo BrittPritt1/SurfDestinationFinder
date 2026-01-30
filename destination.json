@@ -2,6 +2,7 @@
     {
         "id": 1,
         "destination": "Portugal",
+        "city": "Ericeira",
         "accommodation": "Surf Hostel",
         "price": 550,
         "difficulty": "Intermediate",
@@ -16,6 +17,7 @@
     {
         "id": 2,
         "destination": "Frankrijk",
+        "city": "Hossegor",
         "accommodation": "Surf Camp",
         "price": 420,
         "difficulty": "Expert",
@@ -30,6 +32,7 @@
     {
         "id": 3,
         "destination": "Marokko",
+        "city": "Taghazout",
         "accommodation": "Surf Hostel",
         "price": 380,
         "difficulty": "Beginner",
@@ -44,6 +47,7 @@
     {
         "id": 4,
         "destination": "Spanje",
+        "city": "Zarautz",
         "accommodation": "Glamping",
         "price": 495,
         "difficulty": "Beginner",
@@ -58,6 +62,7 @@
     {
         "id": 5,
         "destination": "Bali",
+        "city": "Canggu",
         "accommodation": "Surf Camp",
         "price": 1250,
         "difficulty": "Expert",
